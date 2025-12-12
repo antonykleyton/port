@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.fundo {
+    background: #003f87; 
+    width: 100%;
+    min-height: 100vh;
+    padding: 40px 0;
+}
+
+.conteudo {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    gap: 40px;
+}
+
+.left img {
+    width: 380px;
+    border-radius: 5px;
+}
+
+.right {
+    flex: 1;
+    color: white;
+    position: relative;
+}
+
+.texto-box {
+    background: #1b77d1; 
+    padding: 20px;
+    border-radius: 4px;
+    font-size: 15px;
+    line-height: 1.4;
+    max-width: 500px;
+}
+
+.obrigado {
+    margin-top: 40px;
+    font-size: 60px;
+    font-weight: 900;
+}
+
+.logos {
+    margin-top: 25px;
+}
+
+.selo {
+    background: white;
+    color: #003f87;
+    font-weight: 900;
+    padding: 8px 22px;
+    font-size: 22px;
+    margin-right: 10px;
+}
+
+.botoes {
+    margin-top: 40px;
+    display: flex;
+    gap: 20px;
+}
+
+.btn {
+    background: #5d05b0;
+    color: #000000;
+    padding: 12px 28px;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #dce8f7;
+    transform: scale(1.05);
+}

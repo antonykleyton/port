@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    background: #f2f2f2; 
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.foto-area img {
+    width: 100%;
+    max-width: 1000px;
+    border-radius: 5px;
+}
+
+.frase {
+    margin-top: 20px;
+    background: #0065c8; 
+    color: white;
+    padding: 15px 25px;
+    width: fit-content;
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30px;
+
+    font-size: 20px;
+    font-weight: 600;
+}
+.botoes {
+    margin-top: 40px;
+    display: flex;
+    gap: 20px;
+}
+
+.btn {
+    background: #5d05b0;
+    color: #000000;
+    padding: 12px 28px;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #dce8f7;
+    transform: scale(1.05);
+}

@@ -1,0 +1,38 @@
+.subtitulo {
+    font-size: 22px;
+    margin-top: 10px;
+}
+
+.right {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+}
+
+.foto {
+    width: 100%;
+    border-radius: 25px;
+    object-fit: cover;
+}
+.botoes {
+    margin-top: 40px;
+    display: flex;
+    gap: 20px;
+}
+
+.btn {
+    background: #ffffff;
+    color: #0d4f80;
+    padding: 12px 28px;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #dce8f7;
+    transform: scale(1.05);
+}

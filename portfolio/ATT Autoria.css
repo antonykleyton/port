@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #003B70;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: #0B4D89;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+.decor-left, .decor-right {
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 5px solid white;
+    opacity: 0.4;
+}
+
+.decor-left {
+    left: 30px;
+    top: 30px;
+}
+
+.decor-right {
+    right: 30px;
+    bottom: 30px;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 32px;
+    font-weight: 600;
+}
+.navegacao{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 60px;
+    margin-top: 20px;
+}
+.btn{
+    text-decoration: none;
+    background-color: #9fd3ff;
+    color: #003b71;
+    padding: 12px 25px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 6px;
+    transition: 0.3s;
+}
+
+.btn:hover{
+    background-color: white;
+    transform: scale(1.08);
+}
+
+.anterior{
+    border: 3px solid #72b9ff;
+}
+
+.proximo{
+    border: 3px solid #72b9ff;
+}
+

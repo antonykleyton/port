@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #003f87; 
+    color: white;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    padding-top: 40px;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 900;
+    letter-spacing: 2px;
+}
+
+.boxes {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 40px;
+}
+
+.box {
+    background: #ffffff;
+    color: black;
+    width: 40%;
+    border-radius: 5px;
+    padding: 25px;
+    text-align: left;
+}
+
+.box h2 {
+    font-size: 18px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 18px;
+    font-size: 15px;
+}
+
+a {
+    color: #0047b3;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.logos {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.sesi, .senai {
+    background: white;
+    color: #003f87;
+    font-weight: 900;
+    font-size: 28px;
+    padding: 10px 20px;
+}
+.botoes {
+    margin-top: 40px;
+    display: flex;
+    gap: 20px;
+}
+
+.btn {
+    background: #ffffff;
+    color: #0d4f80;
+    padding: 12px 28px;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #dce8f7;
+    transform: scale(1.05);
+}   

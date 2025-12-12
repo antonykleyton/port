@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body{
+    background-color:#003b71;
+    color:white;
+}
+
+header{
+    text-align: center;
+    padding:25px 0;
+}
+header h1{
+    font-size: 45px;
+    margin-top:15px;
+    font-weight: 800;
+}
+header .logo{
+    width: 70px;
+    margin:0px 10px;
+}
+
+.habilidades{
+    justify-content:center;
+    text-align:center;
+    padding:30px 0;
+}
+
+.caixa{
+    background:#f1eae0;
+    color:#003b71;
+    display:inline-block;
+    font-weight:bold;
+    font-size:23px;
+    padding:15px 30px;
+    border-radius:15px;
+    margin:18px 15px;
+    border:4px solid #83bfff;
+}
+
+.fotos-lado{
+    display:flex;
+    justify-content:center;
+    gap:60px;
+    margin:35px 0;
+}
+.fotos-lado img{
+    width:270px;
+    border-radius:10px;
+}
+
+.navegacao{
+    width:100%;
+    display:flex;
+    justify-content:space-between;
+    padding:30px 60px;
+    margin-top:25px;
+}
+
+.btn{
+    text-decoration:none;
+    background:#9fd3ff;
+    padding:12px 25px;
+    color:#003b71;
+    font-weight:bold;
+    font-size:18px;
+    border-radius:7px;
+    border:3px solid #5cb5ff;
+    transition:.3s;
+}
+
+.btn:hover{
+    background:white;
+    transform:scale(1.08);
+}
